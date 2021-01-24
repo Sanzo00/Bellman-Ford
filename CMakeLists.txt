@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.14)
+project(bellman-ford LANGUAGES CXX CUDA)
+set(CMAKE_CXX_STANDARD 11)
+# add_definitions(-std=c++11)
+include_directories(/usr/local/cuda/include)
+add_executable(bellman code/kernels.cu code/bellman.cu code/main.cpp code/utilities.cpp)
+add_executable(parser code/parser.cpp code/utilities.cpp)
+add_executable(dijkstra code/dijkstra.cpp code/utilities.cpp)
