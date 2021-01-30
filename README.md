@@ -1,6 +1,7 @@
 ## Bellman-Ford
 
-使用CUDA实现Bellman-Ford算法。
+
+[项目说明: blog.csdn.net/henuyh/article/details/113099509](https://blog.csdn.net/henuyh/article/details/113099509)
 
 
 
